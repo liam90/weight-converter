@@ -18,6 +18,22 @@ body {
 
 .btn:hover {
   background-color: hsl(203, 95%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+
+.footer-btn {
+  background-color: hsl(203, 20%, 43%);
+  padding: 1em 2em;
+  margin: .5em;
+  color: hsl(203, 95%, 20%);
+  border: 0;
+}
+
+.footer-btn:hover, .footer-btn:focus {
+  background-color: hsla(203, 20%, 43%, .7);
+  color: hsl(201, 13%, 74%);
+  font-size: .85em;
+  cursor: pointer;
 }
 
 .modal {
@@ -53,6 +69,12 @@ body {
 .modal-header, .modal-footer {
   background-color: hsl(203, 95%, 20%);
   padding: 15px;
+}
+
+.modal-footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .close-btn {
